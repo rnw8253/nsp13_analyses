@@ -1,0 +1,51 @@
+parm ../../../stripped/stripped.nsp13_cov_2_rna.solv.prmtop
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.001.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.002.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.003.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.004.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.005.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.006.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.007.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.008.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.009.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.010.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.011.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.012.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.013.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.014.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.015.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.016.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.017.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.018.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.019.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.020.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.021.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.022.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.023.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.024.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.025.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.026.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.027.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.028.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.029.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.030.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.031.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.032.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.033.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.034.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.035.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.036.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.037.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.038.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.039.stripped.dcd
+trajin ../../../stripped/nsp13_cov_2_rna.solv.gamd_prod.040.stripped.dcd
+
+lie :601@P,O5',OP1,OP2|:600@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :602@P,O5',OP1,OP2|:601@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :603@P,O5',OP1,OP2|:602@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :604@P,O5',OP1,OP2|:603@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :605@P,O5',OP1,OP2|:604@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :606@P,O5',OP1,OP2|:605@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+lie :607@P,O5',OP1,OP2|:606@O3', :1-596 out nsp13_cov_2_rna.solv.lie.dat cutvdw 12.0 cutelec 12.0
+
+go

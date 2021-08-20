@@ -1,0 +1,12 @@
+parm ../../../analyses/aligned_traj/stripped.rna.prmtop
+trajin ../../../analyses/aligned_traj/rna.aligned.run01.dcd
+
+atomicfluct :601@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :602@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :603@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :604@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :605@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :606@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+atomicfluct :607@P,O5',O3',OP1,OP2 out rmsf.rna.dat
+
+go

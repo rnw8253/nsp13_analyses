@@ -1,0 +1,8 @@
+These are analyses used for this publication: Weber, R., & McCullagh, M. (2021). Role of ATP in the RNA Translocation Mechanism of SARS-CoV-2 NSP13 Helicase. The Journal of Physical Chemistry B, 125(Advance online publication), 8787–8796. https://doi.org/10.1021/acs.jpcb.1c04528
+
+domain-dist/ -- contains files to analyze the inter-domain distance within the nsp13 protein
+lie/ -- contains files to calculate the linear interaction energy between RNA and the surrounding protein
+rmsf/ -- contains files to calcualte the RMSF of the RNA within the nsp13 protein
+GMM-LDA/ -- contains files to performed a structural clustering of both the ATP-pocket and the RNA-bidning cleft for the nsp13 protein
+principal_axes_extent/ -- contains files to calculate the extent of the protein, used for confirming enough solvent was added to the system
+        

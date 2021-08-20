@@ -1,0 +1,10 @@
+These directories have various analyses for calculating protein-protein and ligand-protein distances, performing GMM clustering, performing LDA to separate clusters and find contacts that are changing between clusters, and calculating the average distance of the clusters. The data that these analyses are performed on were GaMD simulations so reweighting must be performed.
+
+data/  -- contains the scripts to calculate the protein-protein and ligand protein distances for a given simulations. There is one for the ATP pocket and one for the RNA-binding cleft for nsp13 protein
+gmm_lda/ -- contains scripts to perform GMM-clustering and LDA to separate clusters. It also contains a script to plot the results.
+scores/ -- contains a script to perfrom GMM clustering for a varying number of clusters and plots the scores for each cluster so that the number of clusters can be chosen for the system
+reweight/ -- contains files to use the weight.log file printed by GaMD to reweight the GMM-LDA data and to plot a 2D hist of the first and second eigenvectors
+contacts/ -- contains a file to calculate the average distance for each distance calculated in data/ for each cluster. contacts/reweight/ contains files to calculate those averages after reweighting the data
+clusters/ -- contains a file to calculate the center of each cluster and determine from which frame of the simuilations is nearest the cluster center
+probability/ -- contains a file to calculate the percent of frames the simulation spent in each state determine from GMM-LDA
+motif_five/ -- contains files to calculate distances between motif V with RNA phosphates and ATP and Mg2+
